@@ -19,6 +19,12 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - Permission-MediaLibrary (2.0.10):
+    - RNPermissions
+  - Permission-Notifications (2.0.10):
+    - RNPermissions
+  - Permission-PhotoLibrary (2.0.10):
+    - RNPermissions
   - RCTRequired (0.61.5)
   - RCTTypeSafety (0.61.5):
     - FBLazyVector (= 0.61.5)
@@ -217,7 +223,11 @@ PODS:
     - React-cxxreact (= 0.61.5)
     - React-jsi (= 0.61.5)
     - ReactCommon/jscallinvoker (= 0.61.5)
+  - rn-fetch-blob (0.12.0):
+    - React-Core
   - RNFS (2.16.6):
+    - React
+  - RNPermissions (2.0.10):
     - React
   - RNShare (3.1.1):
     - React
@@ -229,6 +239,9 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - Permission-MediaLibrary (from `../node_modules/react-native-permissions/ios/MediaLibrary.podspec`)
+  - Permission-Notifications (from `../node_modules/react-native-permissions/ios/Notifications.podspec`)
+  - Permission-PhotoLibrary (from `../node_modules/react-native-permissions/ios/PhotoLibrary.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -251,7 +264,9 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
   - RNFS (from `../node_modules/react-native-fs`)
+  - RNPermissions (from `../node_modules/react-native-permissions`)
   - RNShare (from `../node_modules/react-native-share`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -270,6 +285,12 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  Permission-MediaLibrary:
+    :path: "../node_modules/react-native-permissions/ios/MediaLibrary.podspec"
+  Permission-Notifications:
+    :path: "../node_modules/react-native-permissions/ios/Notifications.podspec"
+  Permission-PhotoLibrary:
+    :path: "../node_modules/react-native-permissions/ios/PhotoLibrary.podspec"
   RCTRequired:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
@@ -308,8 +329,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  rn-fetch-blob:
+    :path: "../node_modules/rn-fetch-blob"
   RNFS:
     :path: "../node_modules/react-native-fs"
+  RNPermissions:
+    :path: "../node_modules/react-native-permissions"
   RNShare:
     :path: "../node_modules/react-native-share"
   Yoga:
@@ -322,6 +347,9 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  Permission-MediaLibrary: 5415987502e23b68d2df7da189cb08d52a6bce00
+  Permission-Notifications: c9eb3a2da68dc0f37a8dc67d37bd28d150c5041d
+  Permission-PhotoLibrary: e59a7a687e002e8c8c46946c26520934ba85a688
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
   React: b6a59ef847b2b40bb6e0180a97d0ca716969ac78
@@ -341,10 +369,12 @@ SPEC CHECKSUMS:
   React-RCTText: 9ccc88273e9a3aacff5094d2175a605efa854dbe
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
+  rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNFS: 2bd9eb49dc82fa9676382f0585b992c424cd59df
+  RNPermissions: 1008d3511fee0e25739cf81c4af0d1b2248f1053
   RNShare: a4d8a4e7b85194fcc05f6753bd484f4eba6b833d
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 52ac4934ead37e35ae98f5a2aef4729f412d5a14
+PODFILE CHECKSUM: 23c1d75cda496a33cc4d9a15b170f9ee28eac1b0
 
 COCOAPODS: 1.9.1

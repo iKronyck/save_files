@@ -5148,6 +5148,11 @@ react-native-fs@^2.16.6:
     base-64 "^0.1.0"
     utf8 "^3.0.0"
 
+react-native-permissions@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-2.0.10.tgz#d01f5ce7cc48f99d33f2f7ed32bb70abe5ea03dd"
+  integrity sha512-oQmWgm4tqUYyWmMNtYzNO7U/+6+WHyKiRd5cwNeE1FCJTGh8cJ5HapjHw3d6ZVfhSLzNwWqgJy1P4NpTANYa/g==
+
 react-native-share@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/react-native-share/-/react-native-share-3.1.1.tgz#db6bd75318c747fee565f8cc012dd0a846cecca9"
