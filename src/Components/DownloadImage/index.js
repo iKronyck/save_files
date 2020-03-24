@@ -34,7 +34,7 @@ const DownloadImage = ({}) => {
           'Go to your notifications for open the image.',
           [
             {text: 'OK', onPress: () => {}},
-            {text: 'Cancel', style: 'cancel'},
+            {text: 'Cancel', style: 'cancel', onPress: () => {}},
           ],
         );
       } else {

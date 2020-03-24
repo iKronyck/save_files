@@ -56,8 +56,8 @@ const getPermission = async permission => {
       'Save files need storage permission to download file.',
       [
         {text: 'OK', onPress: () => {}},
-        {text: 'Cancel', style: 'cancel'},
-      ]
+        {text: 'Cancel', style: 'cancel', onPress: () => {}},
+      ],
     );
     return false;
   } else {
